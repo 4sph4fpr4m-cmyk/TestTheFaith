@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_BASE = "";
+const API_BASE = "https://testthefaith.com";
 
 export default function App() {
   const [mode, setMode] = useState("ask");
